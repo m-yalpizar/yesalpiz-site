@@ -1,5 +1,35 @@
-.box-content-body {
-  border: 2px solid orange;
+h1 {
   width: 100%;
+  color: rgb(35, 35, 72);
+  margin: 0;
+}
+.box-content-body {
+  width: 60%;
   padding: 10px;
+  flex-direction: column;
+}
+
+.box-content-image {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.box-parent {
+  width: 100%;
+  margin: 30px 0 50px;  
+  box-shadow: 5px 5px 10px 2px rgb(119 129 234 / 25%);
+}
+
+.box-content-wrapper {
+  width: 100%;
+  border: 1px solid rgb(245, 245, 245);
+  display: flex;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.box-content-wrapper > div {
+  display: flex;
+  align-items: center;
 }
