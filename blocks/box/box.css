@@ -1,8 +1,9 @@
 h1 {
   width: 100%;
-  color: rgb(35, 35, 72);
+  color: #000;
   margin: 0;
 }
+
 .box-content-body {
   width: 60%;
   padding: 10px;
@@ -23,7 +24,7 @@ h1 {
 
 .box-content-wrapper {
   width: 100%;
-  border: 1px solid rgb(245, 245, 245);
+  border: 1px solid rgb(245 245 245);
   display: flex;
   padding: 15px;
   box-sizing: border-box;
